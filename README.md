@@ -1,5 +1,7 @@
 # AI-Medicine-Safety-System
 
+![Depression Awareness](https://github.com/NishantG007/AI-Powered-Medicine-Safety-System/blob/ed89c2a50ecb64f27941fd1c0bd04bfea3fd011a/AI_Medicine_Safety_System.png)
+
 ## About
 
 This project is a hybrid AI-powered healthcare decision support system that evaluates medication safety and symptom relevance. Using a custom dataset of 50 medicines, it analyzes potential drug interactions, generates a safety score (0-100), and assesses whether selected medicines are appropriate for user-reported symptoms. The system combines RapidFuzz, deterministic logic, Ollama LLM, and Google Gemini API to deliver explainable and context-aware recommendations.
@@ -197,3 +199,6 @@ MBA in AI & Data Science with interests in Data Analytics, Artificial Intelligen
 
 * Email: [Guptanishant0712@gmail.com](mailto:Guptanishant0712@gmail.com)
 * LinkedIn: https://www.linkedin.com/in/nishantgupta07/
+
+```bash
+-m streamlit run app.py
