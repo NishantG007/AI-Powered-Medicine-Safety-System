@@ -1,0 +1,607 @@
+[
+  {
+    "medicine_name": "Ibuprofen",
+    "category": "Painkiller",
+    "common_use": ["Pain", "Fever", "Inflammation"],
+    "side_effects": ["Stomach irritation", "Nausea", "Dizziness"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid taking on empty stomach", "Monitor kidney function"],
+    "interactions": {
+      "Alcohol": { "risk": "High", "effect": "Increased risk of stomach bleeding" },
+      "Warfarin": { "risk": "Critical", "effect": "Severe bleeding risk" },
+      "Aspirin": { "risk": "Moderate", "effect": "Reduced heart-protective benefits of aspirin" }
+    }
+  },
+  {
+    "medicine_name": "Paracetamol",
+    "category": "Painkiller",
+    "common_use": ["Mild pain", "Fever"],
+    "side_effects": ["Nausea", "Rash"],
+    "severity_level": "Low",
+    "precautions": ["Do not exceed 4g per day", "Check for combination products"],
+    "interactions": {
+      "Alcohol": { "risk": "High", "effect": "Increased risk of liver toxicity" },
+      "Warfarin": { "risk": "Moderate", "effect": "May enhance anticoagulant effect" }
+    }
+  },
+  {
+    "medicine_name": "Amoxicillin",
+    "category": "Antibiotic",
+    "common_use": ["Bacterial infections", "Sinusitis"],
+    "side_effects": ["Diarrhea", "Nausea", "Skin rash"],
+    "severity_level": "Moderate",
+    "precautions": ["Complete full course", "Check for penicillin allergy"],
+    "interactions": {
+      "Methotrexate": { "risk": "High", "effect": "Increased methotrexate toxicity" },
+      "Oral Contraceptives": { "risk": "Low", "effect": "Possible reduced efficacy of birth control" }
+    }
+  },
+  {
+    "medicine_name": "Cetirizine",
+    "category": "Antihistamine",
+    "common_use": ["Allergies", "Hay fever", "Hives"],
+    "side_effects": ["Drowsiness", "Dry mouth", "Fatigue"],
+    "severity_level": "Low",
+    "precautions": ["Avoid driving if drowsy", "Limit alcohol intake"],
+    "interactions": {
+      "Alcohol": { "risk": "Moderate", "effect": "Increased sedation and impairment" },
+      "Sleeping Pills": { "risk": "High", "effect": "Excessive central nervous system depression" }
+    }
+  },
+  {
+    "medicine_name": "Omeprazole",
+    "category": "Gastric medicine",
+    "common_use": ["Acid reflux", "GERD", "Gastric ulcers"],
+    "side_effects": ["Headache", "Abdominal pain", "Flatulence"],
+    "severity_level": "Moderate",
+    "precautions": ["Take 30 minutes before food", "Long term use affects B12"],
+    "interactions": {
+      "Clopidogrel": { "risk": "High", "effect": "Reduced antiplatelet efficacy" },
+      "St. John's Wort": { "risk": "Moderate", "effect": "Decreased omeprazole levels" }
+    }
+  },
+  {
+    "medicine_name": "Metformin",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes", "PCOS"],
+    "side_effects": ["Diarrhea", "Metallic taste", "Lactic acidosis (rare)"],
+    "severity_level": "High",
+    "precautions": ["Monitor kidney function", "Take with meals"],
+    "interactions": {
+      "Alcohol": { "risk": "High", "effect": "Increased risk of lactic acidosis" },
+      "Iodinated Contrast": { "risk": "Critical", "effect": "Acute renal failure" }
+    }
+  },
+  {
+    "medicine_name": "Lisinopril",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Heart failure"],
+    "side_effects": ["Dry cough", "Dizziness", "Hyperkalemia"],
+    "severity_level": "High",
+    "precautions": ["Monitor potassium levels", "Avoid during pregnancy"],
+    "interactions": {
+      "Potassium Supplements": { "risk": "High", "effect": "Life-threatening hyperkalemia" },
+      "NSAIDs": { "risk": "Moderate", "effect": "Reduced blood pressure control and kidney risk" },
+      "Spironolactone": { "risk": "High", "effect": "Increased risk of hyperkalemia" }
+    }
+  },
+  {
+    "medicine_name": "Amlodipine",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Angina"],
+    "side_effects": ["Ankle swelling", "Flushing", "Palpitations"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid grapefruit juice", "Rise slowly from sitting position"],
+    "interactions": {
+      "Simvastatin": { "risk": "Moderate", "effect": "Increased risk of muscle toxicity" },
+      "Grapefruit Juice": { "risk": "Moderate", "effect": "Increased amlodipine concentration" }
+    }
+  },
+  {
+    "medicine_name": "Azithromycin",
+    "category": "Antibiotic",
+    "common_use": ["Respiratory infections", "STIs"],
+    "side_effects": ["Vomiting", "Stomach cramps", "Diarrhea"],
+    "severity_level": "Moderate",
+    "precautions": ["Monitor heart rhythm", "Complete the dose"],
+    "interactions": {
+      "Antacids": { "risk": "Moderate", "effect": "Reduced absorption of antibiotic" },
+      "Amiodarone": { "risk": "High", "effect": "Increased risk of abnormal heart rhythm" }
+    }
+  },
+  {
+    "medicine_name": "Loratadine",
+    "category": "Antihistamine",
+    "common_use": ["Seasonal allergies", "Itching"],
+    "side_effects": ["Headache", "Dry mouth"],
+    "severity_level": "Low",
+    "precautions": ["Non-drowsy formulation preferred for daytime"],
+    "interactions": {
+      "Erythromycin": { "risk": "Low", "effect": "Increased loratadine levels" },
+      "Ketoconazole": { "risk": "Low", "effect": "Increased loratadine levels" }
+    }
+  },
+  {
+    "medicine_name": "Guaifenesin",
+    "category": "Cold and cough medicines",
+    "common_use": ["Chest congestion", "Cough"],
+    "side_effects": ["Nausea", "Dizziness"],
+    "severity_level": "Low",
+    "precautions": ["Drink plenty of fluids"],
+    "interactions": {
+      "Alcohol": { "risk": "Low", "effect": "Increased dizziness" },
+      "Anticoagulants": { "risk": "Low", "effect": "Minor risk of increased bleeding" }
+    }
+  },
+  {
+    "medicine_name": "Dextromethorphan",
+    "category": "Cold and cough medicines",
+    "common_use": ["Dry cough suppressant"],
+    "side_effects": ["Drowsiness", "Constipation"],
+    "severity_level": "Moderate",
+    "precautions": ["Do not use with MAOIs"],
+    "interactions": {
+      "MAO Inhibitors": { "risk": "Critical", "effect": "Serotonin syndrome" },
+      "Alcohol": { "risk": "Moderate", "effect": "Enhanced sedation" }
+    }
+  },
+  {
+    "medicine_name": "Ranitidine",
+    "category": "Gastric medicine",
+    "common_use": ["Heartburn", "Acid indigestion"],
+    "side_effects": ["Headache", "Constipation"],
+    "severity_level": "Low",
+    "precautions": ["Consult doctor for prolonged use"],
+    "interactions": {
+      "Antacids": { "risk": "Moderate", "effect": "Reduced absorption" },
+      "Warfarin": { "risk": "Low", "effect": "Possible change in INR" }
+    }
+  },
+  {
+    "medicine_name": "Glimepiride",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes"],
+    "side_effects": ["Hypoglycemia", "Weight gain", "Nausea"],
+    "severity_level": "High",
+    "precautions": ["Check blood sugar regularly", "Carry glucose"],
+    "interactions": {
+      "Beta-Blockers": { "risk": "High", "effect": "Masks symptoms of low blood sugar" },
+      "Alcohol": { "risk": "High", "effect": "Severe hypoglycemia risk" }
+    }
+  },
+  {
+    "medicine_name": "Losartan",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Diabetic nephropathy"],
+    "side_effects": ["Dizziness", "Fatigue", "High potassium"],
+    "severity_level": "High",
+    "precautions": ["Avoid potassium-rich salt substitutes"],
+    "interactions": {
+      "Lithium": { "risk": "High", "effect": "Increased lithium toxicity" },
+      "Fluconazole": { "risk": "Moderate", "effect": "Increased losartan levels" }
+    }
+  },
+  {
+    "medicine_name": "Diclofenac",
+    "category": "Painkiller",
+    "common_use": ["Arthritis pain", "Joint swelling"],
+    "side_effects": ["Stomach pain", "Heartburn", "Skin rash"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid in heart disease", "Use lowest effective dose"],
+    "interactions": {
+      "Aspirin": { "risk": "High", "effect": "Increased risk of GI ulcers" },
+      "Diuretics": { "risk": "Moderate", "effect": "Reduced diuretic effectiveness" }
+    }
+  },
+  {
+    "medicine_name": "Ciprofloxacin",
+    "category": "Antibiotic",
+    "common_use": ["UTIs", "Bone infections", "Prostatitis"],
+    "side_effects": ["Tendon rupture risk", "Nausea", "Sun sensitivity"],
+    "severity_level": "High",
+    "precautions": ["Avoid sun exposure", "Avoid dairy near dose"],
+    "interactions": {
+      "Dairy Products": { "risk": "Moderate", "effect": "Reduced antibiotic absorption" },
+      "Theophylline": { "risk": "High", "effect": "Increased theophylline toxicity" },
+      "Magnesium Hydroxide": { "risk": "Moderate", "effect": "Reduced antibiotic absorption" }
+    }
+  },
+  {
+    "medicine_name": "Fexofenadine",
+    "category": "Antihistamine",
+    "common_use": ["Allergy symptoms", "Watery eyes"],
+    "side_effects": ["Headache", "Drowsiness (rare)"],
+    "severity_level": "Low",
+    "precautions": ["Avoid fruit juices near dose"],
+    "interactions": {
+      "Fruit Juices": { "risk": "Moderate", "effect": "Decreased drug absorption" },
+      "Antacids": { "risk": "Moderate", "effect": "Reduced antihistamine efficacy" }
+    }
+  },
+  {
+    "medicine_name": "Phenylephrine",
+    "category": "Cold and cough medicines",
+    "common_use": ["Nasal congestion"],
+    "side_effects": ["Increased heart rate", "Insomnia"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid in severe hypertension"],
+    "interactions": {
+      "MAO Inhibitors": { "risk": "Critical", "effect": "Hypertensive crisis" },
+      "Caffeine": { "risk": "Moderate", "effect": "Increased heart rate and blood pressure" }
+    }
+  },
+  {
+    "medicine_name": "Famotidine",
+    "category": "Gastric medicine",
+    "common_use": ["Heartburn", "Peptic ulcers"],
+    "side_effects": ["Constipation", "Dizziness"],
+    "severity_level": "Low",
+    "precautions": ["Take before meals"],
+    "interactions": {
+      "Ketoconazole": { "risk": "Moderate", "effect": "Reduced antifungal absorption" },
+      "Alcohol": { "risk": "Low", "effect": "Increased gastric irritation" }
+    }
+  },
+  {
+    "medicine_name": "Sitagliptin",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes"],
+    "side_effects": ["Upper respiratory infection", "Pancreatitis (rare)"],
+    "severity_level": "High",
+    "precautions": ["Monitor for abdominal pain"],
+    "interactions": {
+      "Digoxin": { "risk": "Moderate", "effect": "Slightly increased digoxin levels" },
+      "Insulin": { "risk": "Moderate", "effect": "Increased risk of hypoglycemia" }
+    }
+  },
+  {
+    "medicine_name": "Metoprolol",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Chest pain", "Post-heart attack"],
+    "side_effects": ["Slow heart rate", "Fatigue", "Shortness of breath"],
+    "severity_level": "High",
+    "precautions": ["Do not stop abruptly", "Monitor heart rate"],
+    "interactions": {
+      "Albuterol": { "risk": "Moderate", "effect": "Reduced asthma inhaler efficacy" },
+      "Alcohol": { "risk": "Moderate", "effect": "Excessive blood pressure drop" }
+    }
+  },
+  {
+    "medicine_name": "Naproxen",
+    "category": "Painkiller",
+    "common_use": ["Menstrual cramps", "Muscle aches", "Tendonitis"],
+    "side_effects": ["Stomach upset", "Edema", "Dizziness"],
+    "severity_level": "Moderate",
+    "precautions": ["Limit use in elderly", "Hydrate well"],
+    "interactions": {
+      "Lithium": { "risk": "High", "effect": "Increased lithium toxicity" },
+      "Alcohol": { "risk": "High", "effect": "Gastric bleeding" }
+    }
+  },
+  {
+    "medicine_name": "Doxycycline",
+    "category": "Antibiotic",
+    "common_use": ["Acne", "Lyme disease", "Malaria prevention"],
+    "side_effects": ["Photosensitivity", "Esophagitis"],
+    "severity_level": "Moderate",
+    "precautions": ["Do not lie down after taking", "Avoid sun"],
+    "interactions": {
+      "Iron Supplements": { "risk": "Moderate", "effect": "Reduced antibiotic absorption" },
+      "Retinoids": { "risk": "High", "effect": "Increased intracranial pressure" }
+    }
+  },
+  {
+    "medicine_name": "Diphenhydramine",
+    "category": "Antihistamine",
+    "common_use": ["Allergies", "Sleep aid", "Motion sickness"],
+    "side_effects": ["Strong sedation", "Dry eyes", "Confusion in elderly"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid driving"],
+    "interactions": {
+      "Sleeping Pills": { "risk": "High", "effect": "Severe respiratory depression" },
+      "Alcohol": { "risk": "High", "effect": "Excessive drowsiness and lack of coordination" }
+    }
+  },
+  {
+    "medicine_name": "Oxymetazoline",
+    "category": "Cold and cough medicines",
+    "common_use": ["Nasal congestion (spray)"],
+    "side_effects": ["Rebound congestion", "Nasal dryness"],
+    "severity_level": "Low",
+    "precautions": ["Do not use for more than 3 days"],
+    "interactions": {
+      "MAO Inhibitors": { "risk": "High", "effect": "Risk of high blood pressure" },
+      "Beta-blockers": { "risk": "Low", "effect": "May reduce blood pressure control" }
+    }
+  },
+  {
+    "medicine_name": "Pantoprazole",
+    "category": "Gastric medicine",
+    "common_use": ["Erosive esophagitis", "Zollinger-Ellison syndrome"],
+    "side_effects": ["Diarrhea", "Joint pain"],
+    "severity_level": "Moderate",
+    "precautions": ["Check magnesium levels long term"],
+    "interactions": {
+      "Methotrexate": { "risk": "High", "effect": "Delayed clearance of methotrexate" },
+      "Warfarin": { "risk": "Moderate", "effect": "Increased bleeding risk" }
+    }
+  },
+  {
+    "medicine_name": "Pioglitazone",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes"],
+    "side_effects": ["Weight gain", "Swelling", "Risk of bone fracture"],
+    "severity_level": "High",
+    "precautions": ["Avoid in heart failure", "Monitor liver"],
+    "interactions": {
+      "Gemfibrozil": { "risk": "High", "effect": "Increased pioglitazone concentration" },
+      "Oral Contraceptives": { "risk": "Moderate", "effect": "Reduced contraceptive efficacy" }
+    }
+  },
+  {
+    "medicine_name": "Hydrochlorothiazide",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Fluid retention"],
+    "side_effects": ["Increased urination", "Dehydration", "Low potassium"],
+    "severity_level": "Moderate",
+    "precautions": ["Take in the morning", "Protect skin from sun"],
+    "interactions": {
+      "Lithium": { "risk": "High", "effect": "Increased lithium toxicity" },
+      "Alcohol": { "risk": "Moderate", "effect": "Increased risk of dizziness" }
+    }
+  },
+  {
+    "medicine_name": "Celecoxib",
+    "category": "Painkiller",
+    "common_use": ["Osteoarthritis", "Acute pain"],
+    "side_effects": ["Gas", "Sore throat", "Swelling"],
+    "severity_level": "High",
+    "precautions": ["Avoid if allergic to sulfonamides"],
+    "interactions": {
+      "Fluconazole": { "risk": "High", "effect": "Doubles celecoxib concentration" },
+      "Antihypertensives": { "risk": "Moderate", "effect": "Reduced blood pressure control" }
+    }
+  },
+  {
+    "medicine_name": "Clarithromycin",
+    "category": "Antibiotic",
+    "common_use": ["H. pylori infection", "Skin infections"],
+    "side_effects": ["Abnormal taste", "Diarrhea", "Nausea"],
+    "severity_level": "High",
+    "precautions": ["Check for heart rhythm issues"],
+    "interactions": {
+      "Statins": { "risk": "High", "effect": "Risk of muscle breakdown (rhabdomyolysis)" },
+      "Colchicine": { "risk": "Critical", "effect": "Fatal colchicine toxicity" },
+      "Repaglinide": { "risk": "High", "effect": "Increased repaglinide levels" }
+    }
+  },
+  {
+    "medicine_name": "Levocetirizine",
+    "category": "Antihistamine",
+    "common_use": ["Allergic rhinitis", "Chronic hives"],
+    "side_effects": ["Tiredness", "Dry mouth"],
+    "severity_level": "Low",
+    "precautions": ["Take in the evening"],
+    "interactions": {
+      "Alcohol": { "risk": "Moderate", "effect": "Impaired mental alertness" },
+      "Ritonavir": { "risk": "Moderate", "effect": "Increased antihistamine levels" }
+    }
+  },
+  {
+    "medicine_name": "Codeine",
+    "category": "Cold and cough medicines",
+    "common_use": ["Severe cough", "Mild pain"],
+    "side_effects": ["Constipation", "Drowsiness", "Itching"],
+    "severity_level": "High",
+    "precautions": ["Risk of addiction", "Avoid in children"],
+    "interactions": {
+      "Alcohol": { "risk": "Critical", "effect": "Fatal respiratory depression" },
+      "Sleeping Pills": { "risk": "Critical", "effect": "Severe CNS depression" }
+    }
+  },
+  {
+    "medicine_name": "Magnesium Hydroxide",
+    "category": "Gastric medicine",
+    "common_use": ["Indigestion", "Constipation"],
+    "side_effects": ["Diarrhea", "Cramping"],
+    "severity_level": "Low",
+    "precautions": ["Drink plenty of water"],
+    "interactions": {
+      "Tetracycline Antibiotics": { "risk": "High", "effect": "Severely reduced antibiotic absorption" },
+      "Ciprofloxacin": { "risk": "Moderate", "effect": "Reduced drug absorption" }
+    }
+  },
+  {
+    "medicine_name": "Glipizide",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes"],
+    "side_effects": ["Hypoglycemia", "Dizziness"],
+    "severity_level": "High",
+    "precautions": ["Take 30 minutes before breakfast"],
+    "interactions": {
+      "NSAIDs": { "risk": "Moderate", "effect": "Increased risk of low blood sugar" },
+      "Warfarin": { "risk": "Moderate", "effect": "Increased hypoglycemia risk" }
+    }
+  },
+  {
+    "medicine_name": "Valsartan",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Heart failure"],
+    "side_effects": ["High potassium", "Dizziness", "Kidney dysfunction"],
+    "severity_level": "High",
+    "precautions": ["Do not use if pregnant"],
+    "interactions": {
+      "Potassium-sparing diuretics": { "risk": "High", "effect": "Excessive potassium buildup" },
+      "NSAIDs": { "risk": "Moderate", "effect": "Reduced renal function" }
+    }
+  },
+  {
+    "medicine_name": "Tramadol",
+    "category": "Painkiller",
+    "common_use": ["Moderate to severe pain"],
+    "side_effects": ["Nausea", "Dizziness", "Constipation"],
+    "severity_level": "High",
+    "precautions": ["Seizure risk", "Potential for abuse"],
+    "interactions": {
+      "Antidepressants (SSRIs)": { "risk": "High", "effect": "Serotonin syndrome" },
+      "Alcohol": { "risk": "Critical", "effect": "Profound sedation and respiratory arrest" }
+    }
+  },
+  {
+    "medicine_name": "Levofloxacin",
+    "category": "Antibiotic",
+    "common_use": ["Pneumonia", "Plague", "Skin infections"],
+    "side_effects": ["Tendonitis", "Diarrhea", "Insomnia"],
+    "severity_level": "High",
+    "precautions": ["Hydrate to prevent kidney stones"],
+    "interactions": {
+      "Multivitamins (Zinc/Iron)": { "risk": "Moderate", "effect": "Decreased antibiotic efficacy" },
+      "Warfarin": { "risk": "High", "effect": "Increased bleeding" }
+    }
+  },
+  {
+    "medicine_name": "Promethazine",
+    "category": "Antihistamine",
+    "common_use": ["Nausea", "Motion sickness", "Allergy symptoms"],
+    "side_effects": ["Extreme sedation", "Confusion"],
+    "severity_level": "High",
+    "precautions": ["Do not use in children under 2"],
+    "interactions": {
+      "Narcotics": { "risk": "High", "effect": "Excessive central nervous system depression" },
+      "Alcohol": { "risk": "High", "effect": "Dangerous levels of sleepiness" }
+    }
+  },
+  {
+    "medicine_name": "Benzonatate",
+    "category": "Cold and cough medicines",
+    "common_use": ["Cough suppressant"],
+    "side_effects": ["Numbness in throat", "Dizziness"],
+    "severity_level": "Moderate",
+    "precautions": ["Do not chew or suck on capsule"],
+    "interactions": {
+      "Local Anesthetics": { "risk": "Low", "effect": "Added numbing effect" },
+      "Alcohol": { "risk": "Low", "effect": "Increased dizziness" }
+    }
+  },
+  {
+    "medicine_name": "Sucralfate",
+    "category": "Gastric medicine",
+    "common_use": ["Duodenal ulcers"],
+    "side_effects": ["Constipation", "Dry mouth"],
+    "severity_level": "Moderate",
+    "precautions": ["Take on an empty stomach"],
+    "interactions": {
+      "Levothyroxine": { "risk": "High", "effect": "Reduced thyroid hormone absorption" },
+      "Digoxin": { "risk": "Moderate", "effect": "Decreased digoxin absorption" }
+    }
+  },
+  {
+    "medicine_name": "Canagliflozin",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes", "Chronic kidney disease"],
+    "side_effects": ["Yeast infections", "Frequent urination", "Thirst"],
+    "severity_level": "High",
+    "precautions": ["Monitor for ketoacidosis"],
+    "interactions": {
+      "Diuretics": { "risk": "Moderate", "effect": "Increased risk of dehydration" },
+      "Rifampin": { "risk": "Moderate", "effect": "Reduced efficacy of canagliflozin" }
+    }
+  },
+  {
+    "medicine_name": "Spironolactone",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "Edema", "Acne (off-label)"],
+    "side_effects": ["Gynaecomastia", "High potassium", "Dehydration"],
+    "severity_level": "High",
+    "precautions": ["Avoid salt substitutes with potassium"],
+    "interactions": {
+      "Lisinopril": { "risk": "High", "effect": "Hyperkalemia" },
+      "NSAIDs": { "risk": "Moderate", "effect": "Increased risk of kidney toxicity" }
+    }
+  },
+  {
+    "medicine_name": "Aspirin",
+    "category": "Painkiller",
+    "common_use": ["Pain", "Heart attack prevention"],
+    "side_effects": ["Stomach upset", "Ringing in ears", "Easy bruising"],
+    "severity_level": "Moderate",
+    "precautions": ["Do not give to children (Reye's syndrome)"],
+    "interactions": {
+      "Ibuprofen": { "risk": "Moderate", "effect": "Reduced heart-protective benefits" },
+      "Alcohol": { "risk": "High", "effect": "Increased risk of stomach bleeding" },
+      "Diclofenac": { "risk": "High", "effect": "Increased risk of GI ulcers" }
+    }
+  },
+  {
+    "medicine_name": "Nitrofurantoin",
+    "category": "Antibiotic",
+    "common_use": ["UTI treatment and prevention"],
+    "side_effects": ["Dark urine", "Nausea", "Loss of appetite"],
+    "severity_level": "Moderate",
+    "precautions": ["Take with food", "Not for late-stage pregnancy"],
+    "interactions": {
+      "Antacids (Magnesium)": { "risk": "Moderate", "effect": "Reduced antibiotic absorption" },
+      "Probenecid": { "risk": "High", "effect": "Increased nitrofurantoin toxicity" }
+    }
+  },
+  {
+    "medicine_name": "Chlorpheniramine",
+    "category": "Antihistamine",
+    "common_use": ["Common cold", "Allergy symptoms"],
+    "side_effects": ["Sleepiness", "Dry mouth", "Blurred vision"],
+    "severity_level": "Moderate",
+    "precautions": ["Use caution in patients with glaucoma"],
+    "interactions": {
+      "Alcohol": { "risk": "High", "effect": "Increased sedation" },
+      "Sleeping Pills": { "risk": "High", "effect": "Dangerous CNS depression" }
+    }
+  },
+  {
+    "medicine_name": "Pseudoephedrine",
+    "category": "Cold and cough medicines",
+    "common_use": ["Nasal/sinus congestion"],
+    "side_effects": ["Nervousness", "Restlessness", "Palpitations"],
+    "severity_level": "Moderate",
+    "precautions": ["Avoid before bedtime", "Restrict in high blood pressure"],
+    "interactions": {
+      "Beta-blockers": { "risk": "High", "effect": "Reduced blood pressure control" },
+      "Caffeine": { "risk": "Moderate", "effect": "Excessive stimulation and jitteriness" }
+    }
+  },
+  {
+    "medicine_name": "Misoprostol",
+    "category": "Gastric medicine",
+    "common_use": ["NSAID-induced ulcer prevention"],
+    "side_effects": ["Diarrhea", "Stomach cramps"],
+    "severity_level": "High",
+    "precautions": ["Absolute contraindication in pregnancy"],
+    "interactions": {
+      "Antacids (Magnesium)": { "risk": "Moderate", "effect": "Worsened diarrhea" },
+      "Oxytocin": { "risk": "High", "effect": "Excessive uterine stimulation" }
+    }
+  },
+  {
+    "medicine_name": "Repaglinide",
+    "category": "Diabetes medicine",
+    "common_use": ["Type 2 Diabetes"],
+    "side_effects": ["Hypoglycemia", "Upper respiratory infection"],
+    "severity_level": "High",
+    "precautions": ["Take 15-30 mins before meals"],
+    "interactions": {
+      "Gemfibrozil": { "risk": "Critical", "effect": "Severe, prolonged hypoglycemia" },
+      "Clarithromycin": { "risk": "High", "effect": "Increased repaglinide levels" }
+    }
+  },
+  {
+    "medicine_name": "Clonidine",
+    "category": "Blood pressure medicine",
+    "common_use": ["Hypertension", "ADHD (off-label)"],
+    "side_effects": ["Dry mouth", "Drowsiness", "Constipation"],
+    "severity_level": "High",
+    "precautions": ["Do not miss doses", "Avoid alcohol"],
+    "interactions": {
+      "Beta-blockers": { "risk": "High", "effect": "Severe rebound hypertension on withdrawal" },
+      "Alcohol": { "risk": "High", "effect": "Increased sedative effect" }
+    }
+  }
+]
