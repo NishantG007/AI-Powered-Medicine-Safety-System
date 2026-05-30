@@ -4,7 +4,7 @@
 
 This project is a hybrid AI-powered healthcare decision support system that evaluates medication safety and symptom relevance. Using a custom dataset of 50 medicines, it analyzes potential drug interactions, generates a safety score (0-100), and assesses whether selected medicines are appropriate for user-reported symptoms. The system combines RapidFuzz, deterministic logic, Ollama LLM, and Google Gemini API to deliver explainable and context-aware recommendations.
 
-
+---
 
 ## Objectives
 
@@ -16,7 +16,7 @@ This project is a hybrid AI-powered healthcare decision support system that eval
 * Combine rule-based and AI-driven reasoning for enhanced decision support.
 * Demonstrate the use of hybrid AI architectures in healthcare applications.
 
-
+---
 
 ## Domain
 
